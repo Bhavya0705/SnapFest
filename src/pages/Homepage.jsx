@@ -10,7 +10,7 @@ import puja from '../assets/images/homepage/puja.png';
 import retirements from '../assets/images/homepage/retirements.png';
 import Homepagecard from '../components/homepagecards';
 import Navbar from '../components/navbar.jsx/navbar';
-import sflogo from '../assets/images/sflogo.png';
+// import sflogo from '../assets/images/sflogo.png';
 
 const TracksList = [
   {

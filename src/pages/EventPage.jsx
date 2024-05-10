@@ -1,7 +1,6 @@
 import React from 'react';
 import './eventpage.css';
 import lights from '../assets/images/lights.jpg'
-import { NavLink } from 'react-router-dom';
 import BookingCard from '../components/bookingcards';
 
 

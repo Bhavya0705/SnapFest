@@ -2,7 +2,7 @@ import './App.css';
 import LandingPage from './pages/Landing';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Homepage from './pages/Homepage';
 import Tickets from './pages/PastTickets';
 import ColdplayConcert from './pages/EventPage';

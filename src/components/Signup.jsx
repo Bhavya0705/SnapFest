@@ -45,11 +45,10 @@ const Signup = () => {
                     <a href="#!test">
                         <div className="btn1" type="" style={{ textAlign: "center", position: "absolute", top: "26vw", left: "14vw", fontSize: "1.2vw" }}>
                             <div className="load1" style={{ backgroundColor: "#c9a48e", fontFamily: "gtsuper", color: "white", height: ".2vw", fontSize: "1vw", borderRadius: "4px", padding: "0.8vw 4vw 2vw 4vw" }}>
-                                <div>SUBMIT</div>
+                                <div><a href="/home">SUBMIT</a></div>
                             </div>
                         </div>
                     </a>
-
                 </form>
             </div>
 

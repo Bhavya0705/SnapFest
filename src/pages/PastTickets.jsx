@@ -1,7 +1,7 @@
 import React from 'react'
 import './PastTickets.css';
 import Navbar from '../components/navbar.jsx/navbar';
-import Homepagecard from '../components/homepagecards';
+// import Homepagecard from '../components/homepagecards';
 import anniversaries from '../assets/images/homepage/anniversaries.png';
 import bdays from '../assets/images/homepage/bdays.png';
 import corporate from '../assets/images/homepage/corporate.png';

@@ -8,7 +8,7 @@ function BookingCard({ vendor }) {
                 {vendor}
             </div>
             <div className="bookbutton">
-                <button class="button-30" role="button">Book Now</button>
+                <button class="button-30">Book Now</button>
             </div>
         </div>
     )

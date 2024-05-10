@@ -1,7 +1,7 @@
 import React from 'react'
 import './Landingpage.css'
-import bg from '../assets/images/sf.png'
-import snapfestlogo from '../assets/images/snapfestlogo.png'
+// import bg from '../assets/images/sf.png'
+// import snapfestlogo from '../assets/images/snapfestlogo.png'
 import Signup from '../components/Signup'
 
 const LandingPage = () => {
@@ -27,8 +27,8 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className='footer'>
-                <span><a href="#">&nbsp;About</a><span> | </span><a href="#">Help</a><span> | </span><a href="#">Terms and
-                    Conditions</a><span> | </span><a href="#">Privacy policy</a></span><span>&nbsp; | &nbsp;&copy; SnapFest 2024 Group-1 CS5&nbsp;</span>
+                <span><a href="/">&nbsp;About</a><span> | </span><a href="/">Help</a><span> | </span><a href="/">Terms and
+                    Conditions</a><span> | </span><a href="/">Privacy policy</a></span><span>&nbsp; | &nbsp;&copy; SnapFest 2024 Group-1 CS5&nbsp;</span>
             </div>
         </div>
     )
