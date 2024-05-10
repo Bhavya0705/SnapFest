@@ -29,7 +29,7 @@ const Signup = () => {
                         <i className="fa fa-phone" aria-hidden="true" style={{ color: "#c9a48e", fontSize: "2.1vw" }}></i>
                     </div>
                     <div className="form4">
-                        <input style={{ width: "28vw", height: "2.5vw", fontFamily: "gtsuper" }} type="text" id="text" placeholder="Mobile" />
+                        <input style={{ width: "28vw", height: "2.5vw", fontFamily: "gtsuper" }} type="text" id="text" placeholder="Password" />
                     </div>
 
                     <div style={{ position: "absolute", top: "22vw", left: "7vw", fontSize: "1.1vw", color: "#BEBEBE", fontFamily: "gtsuper" }}>
