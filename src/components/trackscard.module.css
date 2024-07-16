@@ -1,0 +1,173 @@
+.track_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100%; */
+    width: 100%;
+    /* object-fit: cover; */
+    /* background-color: #000000; */
+    /* border-radius: 10px; */
+}
+
+.upcomingevent {
+    border-radius: 50px;
+    background: #C99F79;
+    box-shadow: inset 20px 20px 60px #ab8767,
+        inset -20px -20px 60px #e7b78b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #C99F79; */
+    height: 400px;
+    font-size: 45px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.track_img {
+    flex: 2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 10px; */
+    /* opacity: 54%; */
+}
+
+.track_img img {
+    width: 100%;
+    height: 100%;
+    /* object-fit:cover; */
+    /* border-radius: 10px; */
+    transition: 0.5s;
+}
+
+.track_img img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 8px darkgray;
+}
+
+.popupcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupbutton {
+    height: 45px;
+    width: 169px;
+    background-color: #EA6032;
+    /* border-radius: 19px; */
+    box-shadow: 4px 4px 0 #0401B9;
+    border-color: #EA6032;
+    font-family: futilepro;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.tracktitle,
+.popupheading {
+    width: 10rem;
+    font-family: futilepro;
+    color: #f2f52f;
+    text-shadow: 3px 3px #C99F79;
+    font-size: 2rem;
+}
+
+
+.popupdescription {
+    font-family: pixelar;
+    font-size: 1.8rem;
+    padding: 5vh 0;
+
+}
+
+.trackcontent {
+    /* flex:1; */
+    /* background-color: #1F8FBF; */
+    padding: 0 15px;
+    display: flex;
+    /* min-height:5rem; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.trackcontent>button {
+    height: 45px;
+    width: 169px;
+    background-color: #EA6032;
+    /* border-radius: 19px; */
+    box-shadow: 4px 4px 0 #0401B9;
+    border-color: #EA6032;
+    font-family: futilepro;
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+    .tracktitle {
+        font-size: 1.5rem;
+        width: 15rem;
+    }
+}
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    /* background-image: url('../../assets/trackspage/description.svg'); */
+    /* background-color: rgba(0, 0, 0, 0.85); */
+    color: #fff;
+    /* background-color: #EA6032;
+    box-shadow: 4px 4px 0 #0401B9;
+    border-color: #EA6032; */
+    padding: 60px;
+    border-radius: 8px;
+    z-index: 9999;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.popup_inner {
+    max-width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 60vw;
+}
+
+.popup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.popup button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:500px) {
+    .popupdescription {
+        font-family: pixelar;
+        font-size: 1.3rem;
+        padding: 2vh 0;
+    }
+
+}
